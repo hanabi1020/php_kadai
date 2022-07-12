@@ -22,9 +22,11 @@ return  $a + $b;
  
 // 3.$arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) を渡すとその要素をすべてかけた結果を返す関数を作成してください
 function hairetu($arr){
- $result = 1;
+ $array[] = $arr(1,3,5,7,9);
+ $result = 0;
  return $result;
 }
+$number =  hairetu($arr);
 echo hairetu(array(1, 3, 5 ,7, 9));
 echo "\n";
 
